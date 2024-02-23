@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This repository contains supplementary files for NGI technote "Tech Note - Adaptive Sampling: targeted  Oxford Nanopore long-read sequencing" published n 2024.
+This repository contains supplementary files for NGI tech note "Tech Note - Adaptive Sampling: targeted  Oxford Nanopore long-read sequencing" published in 2024.
 
 ## BED files
 
