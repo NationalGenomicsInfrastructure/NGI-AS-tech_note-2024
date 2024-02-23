@@ -1,5 +1,9 @@
 # NGI-AS-tech_note-2024
 
+## Introduction
+
+This repository contains supplementary files for NGI technote "Tech Note - Adaptive Sampling: targeted  Oxford Nanopore long-read sequencing" published n 2024.
+
 ## BED files
 
 There are two sets of BED files with targets. One in hg38 co-ordinate space (in `bedfiles_hg38/`) and another one that requires a custom reference genome (found in `bedfiles_customref`). 
