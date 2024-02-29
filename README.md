@@ -8,7 +8,7 @@ This repository contains supplementary files for NGI tech note "Tech Note - Adap
 
 There are two sets of BED files with targets. One in hg38 co-ordinate space (in `bedfiles_hg38/`) and another one that requires a custom reference genome (found in `bedfiles_customref`). 
 
-In brief, the way to recreate the custom reference files is to use BEDTools getfasta on hg38 to extract the ROIs to `ROI.fasta` (rename the fasta entries to "ROI"), then use bedtools maskfasta to softmask the ROI positions to `hg38_masked.fasta` Then `cat ROI.fasta hg38_masked.fasta > custom_hg38.fasta`
+In brief, the way to recreate the custom reference files is to use BEDTools getfasta on hg38 to extract the ROIs to `ROI.fasta` (rename the fasta entries to "ROI"), then use bedtools maskfasta to mask the ROI positions to `hg38_masked.fasta` Then `cat ROI.fasta hg38_masked.fasta > custom_hg38.fasta`
 The reason for using this custom reference method is to make it easier to validate in real-time on the instrument that enrichment is occuring:
 
 ![Coverage of ROI shown in relation to the rest of the genome of an ongoing run in MinKNOW](docs/minknow_enrichment.jpg)
